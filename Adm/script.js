@@ -53,8 +53,8 @@ document.getElementById('messageForm').addEventListener('submit', function(event
         description: description,
         color: parseInt(color.replace('#', ''), 16), // Converte a cor hexadecimal para decimal
         fields: [
-          { name: field1, value: value1, inline: true },
-          { name: field2, value: value2, inline: true }
+          { name: field1, value: value1, inline: false },
+          { name: field2, value: value2, inline: false }
         ]
       }]
     };
