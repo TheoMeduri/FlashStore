@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b1b1b;
+  }
+  
+  header {
+    background-color: #1b1b1b;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgb(209, 37, 37);
+    position: relative;
+    z-index: 1; 
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: .5s;
+  }
+
+  a:hover {
+    color: rgb(209, 37, 37);
+    font-size: 20px;
+  }
+
+  .fundo {
+    width: 900px;
+    height: 500px;
+    background-color: #000000d2;
+  }
+
+  img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 250px;
+  }
+
+  .porcima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px; /* Largura da barra de rolagem */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Cor de fundo da área de rastreamento */
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(190, 1, 1); /* Cor do botão de rolagem */
+    border-radius: 5px; /* Borda arredondada do botão de rolagem */
+}
+
+
+  footer {
+    background-color: #1b1b1b;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 0 20px rgb(209, 37, 37);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .discord-button {
+    display: inline-block;
+    background-color: #7289DA;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .discord-button:hover {
+    background-color: #5a67d8;
+  }
